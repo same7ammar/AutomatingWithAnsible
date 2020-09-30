@@ -1,0 +1,20 @@
+# ---# Play Exmaple
+# - hosts: localhost
+#   become: yes
+#   tasks:
+#      - name: install SOftware
+#        yum:
+#        name: elinks
+#        state: latest
+#   - name: install more software
+#     yum:
+#       name: nmap-ncat
+#       state: latest
+--- # Play Example
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Install  Vim 
+      yum:
+        name: vim 
+        state: latest
