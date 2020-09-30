@@ -18,3 +18,7 @@
       yum:
         name: vim 
         state: latest
+    - name: INstall  httpd
+      yum:
+        name: httpd
+        state: latest
